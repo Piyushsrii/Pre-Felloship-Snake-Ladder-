@@ -34,6 +34,12 @@
                                 System.out.println("Now your real posiion is 0"+Wining);
                                 }
 
+                                 if(Wining<0)
+                                {
+                                Wining=position;
+                                System.out.println("Now your real posiion is 0"+Wining);
+                                }
+
 			}
 			else if(RandomCheck == 0)
 			{
@@ -43,6 +49,11 @@
 			else
 			{
 				Wining=Wining+random1To6;
+                                if(Wining > 100)
+				{
+					Wining=Wining-random1To6;
+				}
+
 				System.out.println("congrats you have incremented by "+random1To6);
 		         	System.out.println("you are in "+Wining);
 			}
