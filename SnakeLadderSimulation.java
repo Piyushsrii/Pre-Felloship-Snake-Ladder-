@@ -38,14 +38,8 @@
 			else
 			{
 				Wining=Wining+random1To6;
-				if(Wining > 100)
-				{
-					Wining=Wining-random1To6;
-				}
-				else {
-					System.out.println("congrats you have incremented by "+random1To6);
-					System.out.println("you are in "+Wining);
-				}
+				System.out.println("congrats you have incremented by "+random1To6);
+		         	System.out.println("you are in "+Wining);
 			}
 			if(Wining == 100)
 			{
@@ -57,7 +51,6 @@
          public static void main(String[] args)
          {
                startPosition();
-               rollDie();
                casesInSankeLader();
          }
 
