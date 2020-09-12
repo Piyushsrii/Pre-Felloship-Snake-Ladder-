@@ -28,6 +28,11 @@
 				System.out.println("you stand on the snake, you will move back by = " +random1To6);
 				Wining=Wining-random1To6;
 				System.out.println("you are in "+Wining);
+                                if(Wining<0)
+                                {
+                                Wining=position;    
+                                System.out.println("Now your real posiion is 0"+Wining);
+                                }
 
 			}
 			else if(RandomCheck == 0)
