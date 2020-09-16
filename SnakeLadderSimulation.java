@@ -1,21 +1,15 @@
 #### Welcome in Snake & Ladder Simulation #####
-    import java.util.Random;
-    public class SnakeLadderSimulation
+   import java.util.Random;
+public class SnakeLadder
+   {
+     public static void StartFrom0()
     {
-
-         static void startPosition()
-         {
-         System.out.println("Player starting from position 0");
-         }
-         public static void rollDie()
-         {
-         Random random=new Random();
-         int randomNum=random.nextInt(6)+1;
-         System.out.println(""+randomNum);
-         }
-         public static void main(String[] args)
-         {
-         startPosition();
-         rollDie();
-         }
+     System.out.println("Player Start from 0");
     }
+    public static void GetRandomNo1To6()
+    {
+        Random random = new Random();
+	int RandonNo1To6 = random.nextInt(6)+1;
+	System.out.println("random number is "+RandonNo1To6);
+    }
+   }
