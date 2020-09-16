@@ -1,14 +1,9 @@
 #### Welcome in Snake & Ladder Simulation #####
 
-    public class SnakeLadderSimulation
+   public class SnakeLadder
+   {
+     public static void StartFrom0()
     {
-
-         static void startPosition()
-         {
-         System.out.println("Player starting from position 0");
-         }
-         public static void main(String[] args)
-         {
-         startPosition();
-         }
+     System.out.println("Player Start from 0");
     }
+   
